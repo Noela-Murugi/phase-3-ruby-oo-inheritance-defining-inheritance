@@ -14,3 +14,9 @@ class Vehicle
     "filling up!"
   end
 end
+
+class Car < Vehicle
+  def go
+      "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+    end
+end 
